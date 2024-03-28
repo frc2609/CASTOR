@@ -1,10 +1,44 @@
-.active{background-color:var(--button-selected-bg-color);border-color:var(--button-selected-bg-color)}
-.statRow{text-align: right}
-.best{background:var(--highlight-bg-color)}
-td,th{padding:0.2em}
-.graph{display:inline-block;max-width:100%}
-.chart,.heatmap{padding:0 1em;display:inline-block}
-.chart canvas{height:20em}
+:root {
+  --main-bg-color: #000000; /* Or any dark color you prefer */
+  --main-border-color: #333333; /* A slightly lighter dark color for borders */
+  --button-selected-bg-color: #0044cc; /* Example color for selected buttons */
+  --highlight-bg-color: #003399; /* Example color for highlighted elements */
+  --button-disabled-decoration-color: #666666; /* Example color for disabled buttons */
+  --lowlight-bg-color: #111111; /* Dark color for picked elements */
+}
+
+.active {
+  background-color: var(--button-selected-bg-color);
+  border-color: var(--button-selected-bg-color);
+}
+
+.statRow {
+  text-align: right;
+}
+
+.best {
+  background: var(--highlight-bg-color);
+}
+
+td, th {
+  padding: 0.2em;
+}
+
+.graph {
+  display: inline-block;
+  max-width: 100%;
+  background-color: var(--main-bg-color); /* Set plain dark background for graphs */
+}
+
+.chart, .heatmap {
+  padding: 0 1em;
+  display: inline-block;
+  background-color: var(--main-bg-color); /* Set plain dark background for charts and heatmaps */
+}
+
+.chart canvas {
+  height: 20em;
+}
 #teamPicker{padding:2em}
 button.team.picked{text-decoration:var(--button-disabled-decoration-color) wavy line-through;text-decoration-thickness:.2em;}
 button.team{width:3.5em;height:1.5em;margin:0.25em}
