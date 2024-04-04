@@ -1,3 +1,8 @@
+:root {
+	--chart-bg-color: #000000;
+	/* Define black specifically for charts if --main-bg-color isn't black */
+}
+
 #comments {
 	max-width: 30em;
 	margin: 0 auto;
@@ -24,7 +29,9 @@
 .chart,
 .heatmap {
 	padding: 0 1em;
-	display: inline-block
+	display: inline-block;
+	background-color: var(--chart-bg-color);
+	/* Apply the black background specifically to charts and heatmaps */
 }
 
 .comments {
