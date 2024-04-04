@@ -1,24 +1,105 @@
-#comments{max-width:30em;margin:0 auto;text-align:left}
-.scouter{text-align:right}
-.scouter::before{content:"-- "}
-.chart canvas{height:20em}
-.graph{display:inline-block;max-width:100%}
-.chart,.heatmap{padding:0 1em;display:inline-block}
-.comments{white-space:pre-wrap}
-.imagePreview img{width:320px}
-.imagePreview{display:inline}
-#fullPhoto{object-fit:contain;background:#0000;border:none}
-#stats th.match{writing-mode:vertical-rl;text-orientation:upright}
-#stats{font-size:12px;margin:1em auto;border-collapse:collapse}
-#stats h4{margin:1em 0 0.5em 0;font-size:200%;text-align:left;display:inline-block}
-#stats th,#stats td{border:1px solid var(--main-border-color)}
-#stats .borderless{border:none}
-#stats td.blank{border:none;height:2em}
-#teamButtons{column-width:4.5em}
-#teamButtons button {margin:0.2em;width:4em}
-@media (min-height:800px){
-	.chart canvas{max-height:50vh}
+#comments {
+	max-width: 30em;
+	margin: 0 auto;
+	text-align: left
 }
-#topNav ul{display:inline-block}
-#topNav li{display:inline-block}
-#topNav li:not(:last-of-type)::after{content:" | "}
+
+.scouter {
+	text-align: right
+}
+
+.scouter::before {
+	content: "-- "
+}
+
+.chart canvas {
+	height: 20em
+}
+
+.graph {
+	display: inline-block;
+	max-width: 100%
+}
+
+.chart,
+.heatmap {
+	padding: 0 1em;
+	display: inline-block
+}
+
+.comments {
+	white-space: pre-wrap
+}
+
+.imagePreview img {
+	width: 320px
+}
+
+.imagePreview {
+	display: inline
+}
+
+#fullPhoto {
+	object-fit: contain;
+	background: #0000;
+	border: none
+}
+
+#stats th.match {
+	writing-mode: vertical-rl;
+	text-orientation: upright
+}
+
+#stats {
+	font-size: 12px;
+	margin: 1em auto;
+	border-collapse: collapse
+}
+
+#stats h4 {
+	margin: 1em 0 0.5em 0;
+	font-size: 200%;
+	text-align: left;
+	display: inline-block
+}
+
+#stats th,
+#stats td {
+	border: 1px solid var(--main-border-color)
+}
+
+#stats .borderless {
+	border: none
+}
+
+#stats td.blank {
+	border: none;
+	height: 2em
+}
+
+#teamButtons {
+	column-width: 4.5em
+}
+
+#teamButtons button {
+	margin: 0.2em;
+	width: 4em
+}
+
+@media (min-height:800px) {
+	.chart canvas {
+		max-height: 50vh
+	}
+}
+
+#topNav ul {
+	display: inline-block
+}
+
+#topNav li {
+	display: inline-block
+}
+
+#topNav li:not(:last-of-type)::after {
+	content: " | "
+}
