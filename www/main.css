@@ -22,7 +22,7 @@
 --diff-rem-bg-color:#411;
 }
 *{box-sizing:border-box}
-html{font-size:2vmin;color:var(--main-fg-color);background:var(--main-bg-color) url('/background.png') fixed;background-size:33vw auto;padding-bottom:100vh}
+html{font-size:2vmin;color:var(--main-fg-color);background:var(--main-bg-color) url('/background.png') fixed;background-size:cover;padding-bottom:100vh}
 a:link{color:var(--link-color);text-decoration:none}
 a:link:hover{text-decoration:underline}
 a:visited{color:var(--link-visited-color)}
