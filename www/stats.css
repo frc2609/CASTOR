@@ -16,6 +16,8 @@ body {
 	margin: 0;
 	/* Ensures there is no default margin that might mimic a border effect */
 	padding: 0;
+	width: 100%;
+	height: 100%;
 	/* Ensures there is no padding inside the body, which might also mimic a border effect */
 }
 
