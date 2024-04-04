@@ -13,6 +13,10 @@
 body {
 	background-color: var(--page-bg-color);
 	/* Set the page background to purple */
+	margin: 0;
+	/* Ensures there is no default margin that might mimic a border effect */
+	padding: 0;
+	/* Ensures there is no padding inside the body, which might also mimic a border effect */
 }
 
 .active {
